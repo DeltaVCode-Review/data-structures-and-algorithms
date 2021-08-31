@@ -30,13 +30,14 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 
 const addExclamation = (arr) => {
   // Solution code here...
-  let stringResult = [];
+  let result = [];
 
-  arr.forEach(('string', i) => {
-    stringResult.push('string' + 1);
+  //function   parameter//
+  arr.forEach (word => {
+    result.push(`${word}!`);
   });
 
-  return stringResult
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
