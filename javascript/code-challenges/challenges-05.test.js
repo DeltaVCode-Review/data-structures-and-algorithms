@@ -11,23 +11,34 @@ should convert to ["Jane Doe", "James Bond"]
 Note the space in between first and last names.
 You can assume that neither firstName nor lastName will be blank
 ------------------------------------------------------------------------------------------------ */
-let people = [{
-  firstName: 'Jane',
-  lastName: 'Doe',
-},
-{
-  firstName: 'James',
-  lastName: 'Bond'
-}
-];
+// const toLastNames = people => {
 
-const toLastNames = (people) => {
-  let newNames = people.reduce((accumulator, val) => {
-    accumulator.push(val.name);
-    return accumulator + val;
-  }, []);
-  return newNames;
+//   return people.map(
+
+//     person => {
+//       // return person.firstName + ' ' + person.lastName;
+//       return `${person.firstName} ${person.lastName}`;
+//     }
+//   );
+// };
+
+// const toLastNames = people => {
+//   return people.map(
+//     person => (
+//       `${person.firstName} ${person.lastName}`
+//     )
+//   );
+// };
+
+const toLastNames = people => {
+  return people.map(
+    function mapPersonToName(person) {
+      console.log(person);
+      return `${person.firstName} ${person.lastName}`;
+    }
+  );
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -36,9 +47,17 @@ Write a function named addValues that, given an array of numbers as input, uses 
 
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr) => {
-  // Solution code here...
+const addValues = (numbers) => {
+  let accumulator = 0; //sum
+  for (let i = 0; i < numbers.length; i++) {
+    let currentNumber = numbers[i];
+
+    accumulator = accumulator + currentNumber;
+  }
+  return accumulator;
 };
+
+//return numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber,)
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
