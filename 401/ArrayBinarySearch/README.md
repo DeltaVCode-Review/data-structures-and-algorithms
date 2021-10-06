@@ -8,17 +8,28 @@ Without utilizing any of the built-in methods available to your language,
 
 NOTE: The search algorithm used in your function should be a binary search.
 
-Check the Resources section for details
-
 _____
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![Image of Whiteboard Process]()
+![Image of Whiteboard Process](binarysearch.jpg)
 
 ## Approach & Efficiency
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+
+We set a time limit for 50 minutes for this exercise.
+We create a method named BinarySearch, which takes in a sorted int array, and a search key as parameters.
+
+We agreed on how the logic process of the method would work,
+ie. if key < middleIndex, then compare the key against the first half of the array, and repeat until we match the key.
+
+But we when we came to the Code portion, we were stumped on how we would go about writing out the actual **code** to make it happen.
+
+_____
+
+## Resources
+
+[BINARY SEARCH ALGORITHM](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 _____
 
