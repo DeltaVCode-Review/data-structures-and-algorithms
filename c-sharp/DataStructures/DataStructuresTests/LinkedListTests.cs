@@ -44,6 +44,36 @@ namespace DataStructuresTests
       Assert.Null(list.Head.Next);
     }
 
+    [Fact]
+    public void Insert_into_list_not_empty_works()
+    {
+      // Arrange - make a list that has something
+      LinkedList list = new LinkedList();
+      list.Insert(5);
+
+      // Act
+      list.Insert(3);
+
+      //Assert
+      Assert.NotNull(list.Head);
+      Assert.Equal(3, list.Head.Value);
+      Assert.NotNull(list.Head.Next);
+      Assert.Equal(5, list.Head.Next.Value);
+      Assert.Null(list.Head.Next.Next);
+
+    }
+
+    [Theory (Skip = "Homework")]
+    [InlineData (1, false)]
+    public void Includes_finds_value_or_not(int valueToFind, bool expected)
+    {
+      // Arrange
+
+
+      // Act
+
+      // Assert
+    }
   }
 
 

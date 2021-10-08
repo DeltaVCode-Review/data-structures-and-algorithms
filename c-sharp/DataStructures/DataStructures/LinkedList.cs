@@ -17,7 +17,9 @@ namespace DataStructures
       Node newNode = new Node();
       newNode.Value = value;
 
+      newNode.Next = Head;
       Head = newNode;
+
       
     }
 
