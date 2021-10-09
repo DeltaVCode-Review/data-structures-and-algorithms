@@ -19,17 +19,22 @@ namespace DataStructures
 
       newNode.Next = Head;
       Head = newNode;
-
       
     }
-
-
     
 
     // includes
 
-    // to string
+    public bool Includes(int valueToFind)
+    {
+      return false;
+    }
 
+    // to string
+    public override string ToString()
+    {
+      return "NULL";
+    }
 
 
 
