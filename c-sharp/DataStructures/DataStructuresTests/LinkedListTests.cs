@@ -7,7 +7,7 @@ namespace DataStructuresTests
 {
   public class LinkedListTests
   {
-    [Fact]
+    [Fact(Skip = "skiip")]
     public void Empty_list_has_null_Head()
     {
 
@@ -22,7 +22,7 @@ namespace DataStructuresTests
     }
 
 
-    [Fact]
+    [Fact(Skip = "skiip")]
 
     public void Insert_into_empty_LinkedList_adds_Node_with_Value_at_Head()
     {
@@ -44,7 +44,7 @@ namespace DataStructuresTests
       Assert.Null(list.Head.Next);
     }
 
-    [Fact]
+    [Fact(Skip = "skiip")]
     public void Insert_into_list_not_empty_works()
     {
       // Arrange - make a list that has something
@@ -63,26 +63,26 @@ namespace DataStructuresTests
 
     }
 
-    [Theory(Skip = "Homework")]
-    [InlineData(1, false)]
-    [InlineData(2, true)]
-    [InlineData(3, true)]
-    public void Includes_finds_value_or_not(int valueToFind, bool expected)
-    {
-      // Arrange
-      LinkedList list = new LinkedList();
-      list.Insert(2);
-      list.Insert(3);
+    //[Theory(Skip = "Homework")]
+    //[InlineData(1, false)]
+    //[InlineData(2, true)]
+    //[InlineData(3, true)]
+    //public void Includes_finds_value_or_not(int valueToFind, bool expected)
+    //{
+    //  // Arrange
+    //  LinkedList list = new LinkedList();
+    //  list.Insert(2);
+    //  list.Insert(3);
 
-      // Act
-      bool result = list.Includes(valueToFind);
+    //  // Act
+    //  bool result = list.Includes(valueToFind);
 
-      // Assert
-      Assert.Equal(expected, result);
+    //  // Assert
+    //  Assert.Equal(expected, result);
 
-    }
+    //}
 
-    [Fact]
+    [Fact (Skip = "skiip")]
     public void ToString_returns_NULL_for_empty_list()
     {
       // Arrange
@@ -96,13 +96,25 @@ namespace DataStructuresTests
 
     }
 
-    // TODO: Add tests for ToString() with non-empty list
+    [Fact]
+    public void Append_Inserts_Value_At_End_Of_List()
+    {
+      // Arrange - make a list that has something
+      LinkedList list = new LinkedList();
+      list.Insert(4);
+      list.Insert(3);
+      list.Insert(2);
+      list.Insert(1);
 
-    //TODO The head property will properly point to the first node in the linked list
-    //TODO Can properly insert multiple nodes into the linked list
-    //TODO Will return true when finding a value within the linked list that exists
-    //TODO Will return false when searching for a value in the linked list that does not exist
-    //TODO Can properly return a collection of all the values that exist in the linked list
+      // Act
+      list.Append(5);
+
+      //Assert
+      Assert.NotNull(list.Head);
+      Assert.Equal(8, list.Head.Next.Next.Next.Next.Value);
+
+    }
+
 
   }
 }
