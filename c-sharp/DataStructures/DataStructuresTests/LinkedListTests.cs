@@ -98,5 +98,11 @@ namespace DataStructuresTests
 
     // TODO: Add tests for ToString() with non-empty list
 
+    //TODO The head property will properly point to the first node in the linked list
+    //TODO Can properly insert multiple nodes into the linked list
+    //TODO Will return true when finding a value within the linked list that exists
+    //TODO Will return false when searching for a value in the linked list that does not exist
+    //TODO Can properly return a collection of all the values that exist in the linked list
+
   }
 }
