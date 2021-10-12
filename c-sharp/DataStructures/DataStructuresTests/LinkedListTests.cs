@@ -7,7 +7,7 @@ namespace DataStructuresTests
 {
   public class LinkedListTests
   {
-    [Fact(Skip = "skiip")]
+    [Fact]
     public void Empty_list_has_null_Head()
     {
 
@@ -18,11 +18,10 @@ namespace DataStructuresTests
       Node head = list.Head;
 
       // Assert
-      Assert.Null(head);
+      Assert.Null(list.Head);
     }
 
-
-    [Fact(Skip = "skiip")]
+    [Fact]
 
     public void Insert_into_empty_LinkedList_adds_Node_with_Value_at_Head()
     {
@@ -44,7 +43,7 @@ namespace DataStructuresTests
       Assert.Null(list.Head.Next);
     }
 
-    [Fact(Skip = "skiip")]
+    [Fact]
     public void Insert_into_list_not_empty_works()
     {
       // Arrange - make a list that has something
@@ -82,7 +81,7 @@ namespace DataStructuresTests
 
     //}
 
-    [Fact (Skip = "skiip")]
+    [Fact]
     public void ToString_returns_NULL_for_empty_list()
     {
       // Arrange
@@ -97,24 +96,37 @@ namespace DataStructuresTests
     }
 
     [Fact]
-    public void Append_Inserts_Value_At_End_Of_List()
+    public void ToString_returns_the_list()
     {
-      // Arrange - make a list that has something
+      // Arrange
       LinkedList list = new LinkedList();
-      list.Insert(4);
       list.Insert(3);
       list.Insert(2);
       list.Insert(1);
 
       // Act
-      list.Append(5);
+      string result = list.ToString();
 
-      //Assert
-      Assert.NotNull(list.Head);
-      Assert.Equal(8, list.Head.Next.Next.Next.Next.Value);
-
+      // Assert
+      Assert.Equal("1 -> 2 -> 3 -> NULL", result);
     }
 
+    //[Fact]
+    //public void Append_Inserts_Value_At_End_Of_List()
+    //{
+    //  // Arrange - make a list that has something
+    //  LinkedList list = new LinkedList();
+    //  list.Insert(4);
+    //  list.Insert(3);
 
+    //  // Act
+    //  list.Append(5);
+    //  string result = list.ToString();
+
+    //  //Assert
+    //  Assert.NotNull(list.Head);
+    //  Assert.Equal("3 -> 4 -> 5 -> NULL", result);
+
+    //}
   }
 }
