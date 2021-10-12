@@ -36,6 +36,18 @@ Given a number (**k**), return the node's value that is that (**k**)'s # of plac
 
 ---
 
+## Unit Tests
+
+Write tests for the following scenarios, and any other cases that help you ensure your code is working as expected.
+
+1. Where k is greater than the length of the linked list
+2. Where k and the length of the list are the same
+3. Where k is not a positive integer
+4. Where the linked list is of a size 1
+5. “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+
+---
+
 ### Whiteboard Visual
 
 ***[Your Whiteboard Image]***
