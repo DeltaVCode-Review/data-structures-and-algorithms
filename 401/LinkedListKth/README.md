@@ -32,7 +32,7 @@ Given a number (**k**), return the node's value that is that (**k**)'s # of plac
 
 | Time | Space |
 | :----------- | :----------- |
-| O(n) | O(n) |
+| O(n) | O(1) |
 
 ---
 
@@ -50,8 +50,7 @@ Write tests for the following scenarios, and any other cases that help you ensur
 
 ### Whiteboard Visual
 
-***[Your Whiteboard Image]***
-![Image 1](https://via.placeholder.com/750x500)
+![Linked List Kth WB](LinkedListKth.jpg)
 
 ---
 

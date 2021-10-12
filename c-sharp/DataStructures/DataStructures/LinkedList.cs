@@ -19,15 +19,15 @@ namespace DataStructures
 
     public void Append(int value)
     {
-      Node newLastNode = new Node();
-      newLastNode.Value = value;
+      Node newNode = new Node();
+      newNode.Value = value;
       Node current = Head;
 
       while (current != null)
       {
         if (current.Next == null)
         {
-          current.Next = newLastNode;
+          current.Next = newNode;
           break;
         }
         else
