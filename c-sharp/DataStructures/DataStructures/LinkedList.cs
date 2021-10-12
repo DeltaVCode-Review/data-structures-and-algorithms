@@ -81,9 +81,7 @@ namespace DataStructures
         if (current.Next == null)
         {
           current.Next = newLastNode;
-          
         }
-        break;
       }
     }
 
