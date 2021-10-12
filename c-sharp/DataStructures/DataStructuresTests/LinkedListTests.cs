@@ -62,24 +62,24 @@ namespace DataStructuresTests
 
     }
 
-    //[Theory(Skip = "Homework")]
-    //[InlineData(1, false)]
-    //[InlineData(2, true)]
-    //[InlineData(3, true)]
-    //public void Includes_finds_value_or_not(int valueToFind, bool expected)
-    //{
-    //  // Arrange
-    //  LinkedList list = new LinkedList();
-    //  list.Insert(2);
-    //  list.Insert(3);
+    [Theory]
+    [InlineData(1, false)]
+    [InlineData(2, true)]
+    [InlineData(3, true)]
+    public void Includes_finds_value_or_not(int valueToFind, bool expected)
+    {
+      // Arrange
+      LinkedList list = new LinkedList();
+      list.Insert(2);
+      list.Insert(3);
 
-    //  // Act
-    //  bool result = list.Includes(valueToFind);
+      // Act
+      bool result = list.Includes(valueToFind);
 
-    //  // Assert
-    //  Assert.Equal(expected, result);
+      // Assert
+      Assert.Equal(expected, result);
 
-    //}
+    }
 
     [Fact]
     public void ToString_returns_NULL_for_empty_list()

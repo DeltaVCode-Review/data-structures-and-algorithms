@@ -38,20 +38,20 @@ namespace DataStructures
     }
 
 
-    //public bool Includes(int valueToFind)
-    //{
-    //  Node current = Head;
+    public bool Includes(int valueToFind)
+    {
+      Node current = Head;
 
-    //  while (current != null)
-    //  {
-    //    if (current.Value == valueToFind)
-    //    {
-    //      return true;
-    //    }
-    //    current = current.Next;
-    //  }
-    //  return false;
-    //}
+      while (current != null)
+      {
+        if (current.Value == valueToFind)
+        {
+          return true;
+        }
+        current = current.Next;
+      }
+      return false;
+    }
 
     public override string ToString()
     {
