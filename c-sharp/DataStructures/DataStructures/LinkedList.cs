@@ -16,6 +16,28 @@ namespace DataStructures
       Head = newNode;
     }
 
+
+    public void Append(int value)
+    {
+      Node newLastNode = new Node();
+      newLastNode.Value = value;
+      Node current = Head;
+
+      while (current != null)
+      {
+        if (current.Next == null)
+        {
+          current.Next = newLastNode;
+          break;
+        }
+        else
+        {
+          current = current.Next;
+        }
+      }
+    }
+
+
     //public bool Includes(int valueToFind)
     //{
     //  Node current = Head;
@@ -84,24 +106,7 @@ namespace DataStructures
     //}
 
 
-    //public void Append(int value)
-    //{
-    //  Node newLastNode = new Node();
-    //  newLastNode.Value = value;
-    //  Node current = Head;
-
-    //  while (current != null)
-    //  {
-    //    if (current.Next == null)
-    //    {
-    //      current.Next = newLastNode;
-    //    }
-    //    else
-    //    {
-    //      current = current.Next;
-    //    }
-    //  }
-    //}
+   
 
   }
 }

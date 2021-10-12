@@ -111,22 +111,21 @@ namespace DataStructuresTests
       Assert.Equal("1 -> 2 -> 3 -> NULL", result);
     }
 
-    //[Fact]
-    //public void Append_Inserts_Value_At_End_Of_List()
-    //{
-    //  // Arrange - make a list that has something
-    //  LinkedList list = new LinkedList();
-    //  list.Insert(4);
-    //  list.Insert(3);
+    [Fact]
+    public void Append_Inserts_Value_At_End_Of_List()
+    {
+      // Arrange - make a list that has something
+      LinkedList list = new LinkedList();
+      list.Insert(4);
+      list.Insert(3);
 
-    //  // Act
-    //  list.Append(5);
-    //  string result = list.ToString();
+      // Act
+      list.Append(5);
 
-    //  //Assert
-    //  Assert.NotNull(list.Head);
-    //  Assert.Equal("3 -> 4 -> 5 -> NULL", result);
+      //Assert
+      Assert.NotNull(list.Head);
+      Assert.Equal("3 -> 4 -> 5 -> NULL", list.ToString());
 
-    //}
+    }
   }
 }
