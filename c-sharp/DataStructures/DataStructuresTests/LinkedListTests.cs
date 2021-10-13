@@ -7,6 +7,8 @@ namespace DataStructuresTests
 {
   public class LinkedListTests
   {
+    private object result;
+
     [Fact]
     public void Empty_list_has_null_Head()
     {
@@ -127,5 +129,30 @@ namespace DataStructuresTests
       Assert.Equal("3 -> 4 -> 5 -> NULL", list.ToString());
 
     }
+
+
+    [Theory]
+    [InlineData(2)]
+    public void Kth_Does_Something(int 2)
+    {
+      //Arrange
+      LinkedList list = new LinkedList();
+      list.Insert(4);
+      list.Insert(3);
+      list.Insert(2);
+      list.Insert(1);
+
+      //Act
+
+      Kth_Does_Something(2);
+
+      //Assert
+      Assert.NotNull(list.Head);
+      Console.WriteLine(list.ToString());
+      Assert.Equal("1 -> 2 -> 3 -> 4 -> NULL", list.ToString());
+      Console.WriteLine();
+
+    }
+
   }
 }
