@@ -32,6 +32,7 @@ _____
 ### Whiteboard Visual
 
 ***[Your Whiteboard Image]***
+
 ![Image 1](https://via.placeholder.com/750x500)
 
 _____

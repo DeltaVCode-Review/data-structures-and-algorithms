@@ -43,6 +43,7 @@ Given an array. Return "Yes" if the sequence is considered a perfect sequence. O
 ### Whiteboard Visual
 
 ***[Your Whiteboard Image]***
+
 ![Image 1](https://via.placeholder.com/750x500)
 
 ---
