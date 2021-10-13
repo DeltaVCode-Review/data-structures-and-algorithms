@@ -4,6 +4,12 @@
 
 _____
 
+### Templates
+
+[Code Challenge ReadMe](/Templates/CodeChallengeREADME.md)
+
+_____
+
 ### **401**
 
 1. [Array Reverse](/401/ArrayReverse/README.md)
@@ -13,5 +19,6 @@ _____
 5. [Linked Lists](/c-sharp/DataStructures/README.md)
 6. [Linked List Insertions](/401/LinkedListInsertions/README.md)
 7. [Linked List kth](/401/LinkedListKth/README.md)
+8. [Linked List Zip](/401/LinkedListZip/README.md)
 
 _____
