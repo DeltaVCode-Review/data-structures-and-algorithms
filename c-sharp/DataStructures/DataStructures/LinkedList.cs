@@ -102,33 +102,6 @@ namespace DataStructures
       }
     }
 
-    //public void Kth(int k)
-    //{
-    //  int length = 0;
-
-    //  Node current = Head;
-
-    //  while(current != null)
-    //  {
-    //    current = current.Next;
-
-    //    length++;
-    //  }
-
-    //  int stop = length - k;
-
-    //  for (int i = 0; i < stop; i++)
-    //  {
-    //    current = current.Next;
-
-    //    int stopstop = current;
-    //   }
-
-    //}
-
-    /* Function to get the nth node from the last of a 
-    linked list */
-
     public int printNthFromLast(int n)
     {
       int length = 0;
