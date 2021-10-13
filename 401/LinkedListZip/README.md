@@ -31,9 +31,30 @@ _____
 
 ### Whiteboard Visual
 
-***[Your Whiteboard Image]***
+![Linked List Zip Whiteboard](LinkedListZip.jpg)
 
-![Image 1](https://via.placeholder.com/750x500)
+_____
+
+## Approach & Efficiency
+
+* Given two linked lists (LL1 & LL2)
+
+* Set LL1-Head to LL1-current
+
+* Assign LL1-Current.Next to temp1 variable
+
+* Set LL2-Head to LL2-current ?
+* Assign LL2-Current.Next to temp2 variable
+
+* Point LL1 Head to LL2-Head
+* LL2-Head is now LL1-Head.Next
+
+* LL1-Head.Next now points to temp1
+* LL2-temp2 becomes LL2's new Head
+
+* Repeat (??)
+
+## Solution
 
 _____
 
