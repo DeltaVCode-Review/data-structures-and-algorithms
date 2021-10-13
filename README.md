@@ -6,7 +6,9 @@ _____
 
 ### Templates
 
-[Code Challenge ReadMe](/Templates/CodeChallengeREADME.md)
+[Code Challenge ReadMe](Templates/CodeChallengeREADME.md)
+
+[PR Task List](Templates/TaskListTemplate.md)
 
 _____
 
