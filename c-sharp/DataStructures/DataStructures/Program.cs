@@ -7,14 +7,15 @@ namespace DataStructures
     {
       Console.WriteLine("hi");
 
+      LinkedList list = new LinkedList();
+      list.Insert(4);
+      list.Insert(3);
+      list.Insert(2);
+      list.Insert(1);
 
-      //LinkedList ll = new LinkedList();
-      //ll.Insert(42);
+      Console.WriteLine(list);
+      list.printNthFromLast(2);
 
-      //Console.WriteLine(ll);
-
-      //int[] arr = new int[] { 1, 2, 3 };
-      //Console.WriteLine(arr);
     }
   }
 }

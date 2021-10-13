@@ -16,7 +16,6 @@ namespace DataStructures
       Head = newNode;
     }
 
-
     public void Append(int value)
     {
       Node newNode = new Node();
@@ -36,7 +35,6 @@ namespace DataStructures
         }
       }
     }
-
 
     public bool Includes(int valueToFind)
     {
@@ -74,39 +72,92 @@ namespace DataStructures
       return output;
     }
 
+    public void InsertBefore(int valueToStop, int valueToAdd)
+    {
+      Node current = Head;
 
-    //public void InsertBefore(int valueToStop, int valueToAdd)
+      while (current != null)
+      {
+        if (current.Next.Value == valueToStop)
+        {
+          Node newNode = new Node();
+          newNode.Value = valueToAdd;
+          current.Next = newNode;
+        }
+      }
+    }
+
+    public void InsertAfter(int valueToStop, int valueToAdd)
+    {
+      Node current = Head;
+
+      while (current != null)
+      {
+        if (current.Value == valueToStop)
+        {
+          Node newNode = new Node();
+          newNode.Value = valueToAdd;
+          current.Next = newNode;
+        }
+      }
+    }
+
+    //public void Kth(int k)
     //{
+    //  int length = 0;
+
     //  Node current = Head;
 
-    //  while (current != null)
+    //  while(current != null)
     //  {
-    //    if (current.Next.Value == valueToStop)
-    //    {
-    //      Node newNode = new Node();
-    //      newNode.Value = valueToAdd;
-    //      current.Next = newNode;
-    //    }
+    //    current = current.Next;
+
+    //    length++;
     //  }
+
+    //  int stop = length - k;
+
+    //  for (int i = 0; i < stop; i++)
+    //  {
+    //    current = current.Next;
+
+    //    int stopstop = current;
+    //   }
+
     //}
 
-    //public void InsertAfter(int valueToStop, int valueToAdd)
-    //{
-    //  Node current = Head;
+    /* Function to get the nth node from the last of a 
+    linked list */
 
-    //  while (current != null)
-    //  {
-    //    if (current.Value == valueToStop)
-    //    {
-    //      Node newNode = new Node();
-    //      newNode.Value = valueToAdd;
-    //      current.Next = newNode;
-    //    }
-    //  }
-    //}
+    public int printNthFromLast(int n)
+    {
+      int length = 0;
+      Node current = Head;
 
+      // 1) count the number of nodes in Linked List 
+      while (current != null)
+      {
+        if (length < n)
+        {
+          break;
+        }
+        else
+        {
+          current = current.Next;
+          length++;
+        }
+        return length;
+      }
+      
+      int stopHere = length - n;
 
-   
+      Node current2 = Head;
 
+      for(int i = 0; i < stopHere; i++)
+      {
+        current2 = current.Next;
+      }
+      return current.Value;
+    }
   }
 }

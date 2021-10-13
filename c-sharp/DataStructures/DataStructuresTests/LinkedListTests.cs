@@ -9,8 +9,7 @@ namespace DataStructuresTests
   {
     [Fact]
     public void Empty_list_has_null_Head()
-    {
-
+    { 
       // Arrange
       LinkedList list = new LinkedList();
 
@@ -26,7 +25,6 @@ namespace DataStructuresTests
     public void Insert_into_empty_LinkedList_adds_Node_with_Value_at_Head()
     {
       // Arrange
-
       LinkedList list = new LinkedList();
 
       // Act
@@ -59,7 +57,6 @@ namespace DataStructuresTests
       Assert.NotNull(list.Head.Next);
       Assert.Equal(5, list.Head.Next.Value);
       Assert.Null(list.Head.Next.Next);
-
     }
 
     [Theory]
@@ -78,7 +75,6 @@ namespace DataStructuresTests
 
       // Assert
       Assert.Equal(expected, result);
-
     }
 
     [Fact]
@@ -92,7 +88,6 @@ namespace DataStructuresTests
 
       // Assert
       Assert.Equal("NULL", result);
-
     }
 
     [Fact]
@@ -125,7 +120,26 @@ namespace DataStructuresTests
       //Assert
       Assert.NotNull(list.Head);
       Assert.Equal("3 -> 4 -> 5 -> NULL", list.ToString());
+    }
 
+    [Fact]
+    public void Kth_Does_Something()
+    {
+      //Arrange
+      LinkedList list = new LinkedList();
+      list.Insert(4);
+      list.Insert(3);
+      list.Insert(2);
+      list.Insert(1);
+
+      //Act
+      int result = list.printNthFromLast(2);
+
+      //Assert
+      Assert.NotNull(list.Head);
+      Console.WriteLine(list.ToString());
+      Assert.Equal("1 -> 2 -> 3 -> 4 -> NULL", list.ToString());
+      Console.WriteLine();
     }
   }
 }
