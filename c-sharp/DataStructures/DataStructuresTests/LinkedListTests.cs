@@ -133,7 +133,7 @@ namespace DataStructuresTests
 
     [Theory]
     [InlineData(2)]
-    public void Kth_Does_Something(int 2)
+    public void Kth_Does_Something()
     {
       //Arrange
       LinkedList list = new LinkedList();
@@ -144,7 +144,7 @@ namespace DataStructuresTests
 
       //Act
 
-      Kth_Does_Something(2);
+      Kth_Does_Something(k);
 
       //Assert
       Assert.NotNull(list.Head);

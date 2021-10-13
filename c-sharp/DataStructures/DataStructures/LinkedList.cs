@@ -148,27 +148,16 @@ namespace DataStructures
         }
         return length;
       }
-
-      //Console.WriteLine(length.ToString());
-
+      
       int stopHere = length - n;
 
-      //Console.WriteLine(stopHere.ToString());
+      Node current2 = Head;
 
-      current = Head;
-
-      while (current != null)
+      for(int i = 0; i < stopHere; i++)
       {
-        current = current.Next;
-
+        current2 = current.Next;
       }
-      return length;
-
-      //// 2) get the (len-n+1)th node from the beginning 
-      //for (int i = 1; i < len - n; i++)
-      //{
-      //  temp = temp.Next;
-      //} 
+      return current.Value;
     }
   }
 }
