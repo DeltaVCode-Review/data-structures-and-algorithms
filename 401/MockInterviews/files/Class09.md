@@ -12,4 +12,8 @@ _____
 ![Jaren Whiteboard](/401/MockInterviews/images/Class09/WB08.jpg)
 ![Jaren Grade](/401/MockInterviews/images/Class09/JarenGrade1014.jpg)
 
-[Home](/401/MockInterviews/README.md)
+_____
+
+### [Mock Interviews Home](/401/MockInterviews/README.md)
+
+### [DSA Home](/README.md)
