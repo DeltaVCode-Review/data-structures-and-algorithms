@@ -22,5 +22,6 @@ _____
 6. [Linked List Insertions](/401/LinkedListInsertions/README.md)
 7. [Linked List kth](/401/LinkedListKth/README.md)
 8. [Linked List Zip](/401/LinkedListZip/README.md)
+9. [Mock Interviews](/401/MockInterviews/README.md)
 
 _____
