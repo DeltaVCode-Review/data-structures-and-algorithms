@@ -14,6 +14,6 @@
 8. [Linked List Zip](/401/LinkedListZip/README.md)
 9. [Mock Interviews](/401/MockInterviews/README.md)
 10. []()
-11. []()
+11. [Stack Queue Pseudo](/401/StackQueuePseudo/README.md)
 
 _____
