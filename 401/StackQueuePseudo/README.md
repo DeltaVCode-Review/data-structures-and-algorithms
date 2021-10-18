@@ -8,8 +8,8 @@ Implement a Queue using two Stacks.
 
 ### Big O
 
-* Time:
-* Space:
+* Time: O(n)
+* Space: O(n)
 
 ---
 
@@ -40,7 +40,7 @@ The two **Stack** instances have the following methods:
 
 ### Whiteboard Visual
 
-![]()
+![Pseudo Queue](/401/StackQueuePseudo/PseudoQueue.jpg)
 
 ---
 
