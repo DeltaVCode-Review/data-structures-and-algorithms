@@ -1,18 +1,8 @@
 # Data Structures and Algorithms
 
-## Table of Contents
+## **401**
 
-_____
-
-### Templates
-
-[Code Challenge ReadMe](Templates/CodeChallengeREADME.md)
-
-[PR Task List](Templates/TaskListTemplate.md)
-
-_____
-
-### **401**
+### Data Structures
 
 1. [Array Reverse](/401/ArrayReverse/README.md)
 2. [Insert Shift Array](/401/InsertShiftArray/README.md)
@@ -23,5 +13,7 @@ _____
 7. [Linked List kth](/401/LinkedListKth/README.md)
 8. [Linked List Zip](/401/LinkedListZip/README.md)
 9. [Mock Interviews](/401/MockInterviews/README.md)
+10. []()
+11. []()
 
 _____
