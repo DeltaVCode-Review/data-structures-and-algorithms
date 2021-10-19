@@ -1,15 +1,15 @@
 using System;
-using Xunit;
+// using Xunit;
 
 namespace StacksQueuesTests
 {
   public class StacksTest
   {
-    [Fact]
-    public void Test1()
-    {
+    // [Fact]
+    // public void Test1()
+    // {
 
-    }
+    // }
 
     //Can successfully push onto a stack
 

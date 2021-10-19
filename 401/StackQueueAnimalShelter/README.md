@@ -21,17 +21,29 @@ Implement the following methods:
 ---
 
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
+
+![Animal Shelter Whiteboard](animalShelter.jpg)
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+Our general idea was to utilize two stacks within the AnimalShelter class.
+
+The animals would be "enqueued" into the first stack as they arrive to the shelter.
+
+When one is going to be adopted, each animal in Stack 1 would be popped onto Stack 2.
+
+When the desired animal is reached, they would be popped out of Stack 2, which would then "dequeue" them from AnimalShelter.
+
+After an animal is adopted and removed from the shelter, Stack 2 would reset by pushing each animal back onto Stack 1, so that they would be back in the order that they arrived.
+
+Stack 2 would have to be reset this way before any new animals could be "enqueued" into AnimalShelter, so that the current animals don't lose their original places.
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 
 ---
 
-* [ ] Top-level README “Table of Contents” is updated
+* [] Top-level README “Table of Contents” is updated
 * [ ] README for this challenge is complete
   * [ ] Summary, Description, Approach & Efficiency, Solution
   * [ ] Picture of whiteboard
