@@ -1,8 +1,4 @@
-# Data Structures and Algorithms
-
-## **401**
-
-### Data Structures
+# 401 Data Structures and Algorithms
 
 1. [Array Reverse](/401/ArrayReverse/README.md)
 2. [Insert Shift Array](/401/InsertShiftArray/README.md)
