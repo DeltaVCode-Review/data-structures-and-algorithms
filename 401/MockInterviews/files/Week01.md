@@ -1,7 +1,5 @@
 # Mock Interviews - Week 01 - Yvette
 
-## [Mock Interviews Home](/401/MockInterviews/README.md)
-
 ## [DSA Home](/README.md)
 
 ---
