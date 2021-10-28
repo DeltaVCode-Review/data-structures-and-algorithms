@@ -1,5 +1,9 @@
 # Array Binary Search
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 Write a function called **BinarySearch** which takes in 2 parameters: a sorted array and the search key.
 
 Without utilizing any of the built-in methods available to your language,
@@ -8,7 +12,7 @@ Without utilizing any of the built-in methods available to your language,
 
 NOTE: The search algorithm used in your function should be a binary search.
 
-_____
+---
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
@@ -25,12 +29,10 @@ ie. if key < middleIndex, then compare the key against the first half of the arr
 
 But we when we came to the Code portion, we were stumped on how we would go about writing out the actual **code** to make it happen.
 
-_____
+---
 
 ## Resources
 
 [BINARY SEARCH ALGORITHM](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
-_____
-
-## [Home](/README.md)
+---

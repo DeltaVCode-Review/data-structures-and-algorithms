@@ -1,6 +1,6 @@
 # Code Challenge 16 - Binary Tree Max
 
-[Home](/README.md)
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
 
 ---
 

@@ -1,5 +1,9 @@
 # Insert Shift Array
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 Given an array, and a value, write a function that will add that value to the array.
 Set the position of the new value to be at the middle index of the array.
 
@@ -25,6 +29,4 @@ Set the position of the new value to be at the middle index of the array.
 
 * Return the new array.
 
-_____
-
-## [Home](/README.md)
+---

@@ -1,5 +1,9 @@
 # Linked List Zip
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 ## Problem Domain
 
 Zip two linked lists.
@@ -27,14 +31,12 @@ zipLists(list1, list2)
 | :----------- | :----------- |
 | O(n) | O(n) |
 
-_____
-
+---
 ### Whiteboard Visual
 
 ![Linked List Zip Whiteboard](LinkedListZip.jpg)
 
-_____
-
+---
 ## Approach & Efficiency
 
 * Given two linked lists (LL1 & LL2)
@@ -56,6 +58,4 @@ _____
 
 ## Solution
 
-_____
-
-[Home](/README.md)
+---

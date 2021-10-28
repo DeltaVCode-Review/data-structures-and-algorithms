@@ -1,5 +1,9 @@
 # Stack Queue Pseudo
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 ## Problem Domain
 
 Implement a Queue using two Stacks.
@@ -43,5 +47,3 @@ The two **Stack** instances have the following methods:
 ![Pseudo Queue](/401/StackQueuePseudo/PseudoQueue.jpg)
 
 ---
-
-[Home](/README.md)

@@ -1,6 +1,6 @@
 # Class 09 - 10/14 - Jaren
 
-## [DSA Home](/README.md)
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
 
 _____
 
