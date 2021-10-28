@@ -6,14 +6,14 @@
 
 ### Jaren
 
-![Jaren - Whiteboard](/401/MockInterviews/images/Week04/JarenWB.png)
-![Jaren - Score](/401/MockInterviews/images/Week04/JarenInterview1028.png)
+![Jaren - Whiteboard](https://i.imgur.com/QUNYuiY.png)
+![Jaren - Score](https://i.imgur.com/XJyZA65.png)
 
 ---
 
 ### Misti
 
-![Misti - Whiteboard](/401/MockInterviews/images/Week04/MistiWB.jpg)
+![Misti - Whiteboard](https://i.imgur.com/EedoksY.jpg)
 ![Misti - Score](/401/MockInterviews/images/Week04/)
 
 ---
