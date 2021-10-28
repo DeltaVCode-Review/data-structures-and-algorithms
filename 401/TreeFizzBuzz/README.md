@@ -24,6 +24,8 @@ Conduct "FizzBuzz" on a binary tree of numbers, while traversing through it to c
 
 ![TreeFizzBuzz Whiteboard](TreeFizzBuzz.jpg)
 
+![TreeFizzBuzz Whiteboard + Keith Notes](treeFizzBuzz2.png)
+
 ## Approach & Efficiency
 
 Ian and I used a depth-first, pre-order traversal to move through the given int binary tree, checking each node for whether or not the value is divisible by 3, 5 or both.
