@@ -1,8 +1,6 @@
 # Mock Interviews - Week 04 - Jaren
 
-[Mock Interviews Home](/401/MockInterviews/README.md)
-
-[DSA Home](/README.md)
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
 
 ---
 

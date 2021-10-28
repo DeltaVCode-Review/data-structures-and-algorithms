@@ -1,5 +1,9 @@
 # Reverse an Array
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 Given an array, return the array in reverse.
 
 ## Whiteboard Process
@@ -15,6 +19,4 @@ We assumed the array was all numbers.
 We used the "Array.Reverse" method in C#, to take the original array and exactly reverse the order of the that array in the same space.  
 If we were to do it again, we would not have used the built-in method. We would have used a for loop to move two items at a time.
 
-_____
-
-[Home](/README.md)
+---

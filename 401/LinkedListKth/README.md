@@ -1,5 +1,9 @@
 # Linked List - Kth
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 ## kth from end
 
 Write the following method for the Linked List class:
@@ -57,5 +61,3 @@ Write tests for the following scenarios, and any other cases that help you ensur
 ### Change Log
 
 ---
-
-[Home](/README.md)

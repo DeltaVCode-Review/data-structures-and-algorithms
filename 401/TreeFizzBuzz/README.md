@@ -1,5 +1,9 @@
 # Tree Fizz Buzz
 
+## [DSA Home](https://mistidinzy.github.io/data-structures-and-algorithms/)
+
+---
+
 ## Problem Domain
 
 Conduct "FizzBuzz" on a binary tree of numbers, while traversing through it to create a new tree of string.
@@ -33,5 +37,3 @@ Ian and I used a depth-first, pre-order traversal to move through the given int 
 ## Solution
 
 ---
-
-[Home](/README.md)
