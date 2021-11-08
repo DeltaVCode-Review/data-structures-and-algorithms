@@ -22,4 +22,10 @@
   <ItemGroup>
     <ProjectReference Include="..\CodeChallenges\CodeChallenges.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="BinaryTreeChallenges\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BinaryTreeChallenges\" />
+  </ItemGroup>
 </Project>

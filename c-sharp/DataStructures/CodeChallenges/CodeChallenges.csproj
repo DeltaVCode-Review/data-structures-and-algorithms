@@ -8,4 +8,10 @@
   <ItemGroup>
     <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Sorting\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sorting\" />
+  </ItemGroup>
 </Project>
