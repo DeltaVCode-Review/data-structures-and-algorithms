@@ -58,3 +58,11 @@ Sorting is happening in place, so it will not require any additional space.
 <!-- Show how to run your code, and examples of it in action -->
 
 ---
+
+## Resources & Materials
+
+[GeeksForGeeks - Insertion Sort](https://www.geeksforgeeks.org/insertion-sort/?ref=leftbar-rightbar)
+
+[GeeksForGeeks - Insertion Sort Example Image](https://media.geeksforgeeks.org/wp-content/uploads/insertionsort.png)
+
+---
