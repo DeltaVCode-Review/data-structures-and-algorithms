@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using CodeChallenges;
 using CodeChallenges.Sorting;
 using Xunit;
@@ -31,6 +32,30 @@ namespace CodeChallengesTests
 
       Assert.Equal(new[] { 4, 8, 15, 16, 23, 42 }, arr);
 
+    }
+
+    [Theory]
+    [InlineData(new[] { 1, 1, 1, 1 })]
+    [InlineData(new[] { 4, 3, 2, 1 })]
+    [InlineData(new[] { 1, 2, 3, 4 })]
+    [InlineData(new[] { -1, -2, -3, -4 })]
+    [InlineData(new[] { 7, 2, 5, 4 })]
+    public void InsertionSort_works(int[] arr)
+    {
+      // Arrange
+
+      // Use LINQ to re-sort into a new array
+      // int[] expected = arr.OrderBy(n => n).ToArray();
+
+      // Map each value to itself, in a copy, then sort
+      int[] expected = Array.ConvertAll(arr, n => n);
+      Array.Sort(expected);
+
+      // Act
+      SortChallenges.InsertionSort(arr);
+
+      // Assert
+      Assert.Equal(expected, arr);
     }
   }
 }
