@@ -45,7 +45,13 @@ Document your explanation by creating a blog article that shows the step-by-step
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+| Big O | Time | Space |
+| :----------- | :----------- | :----------- |
+|  | O(n^2) | O(1) |
+
+We have to scan through the array as many times as there are elements in the array. So worst case scenario for Time would be when all of the elements are in the absolute opposite order of where we want them to be.
+
+Sorting is happening in place, so it will not require any additional space.
 
 ## Solution
 

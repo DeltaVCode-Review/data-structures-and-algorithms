@@ -34,9 +34,9 @@ Given an array. Return "Yes" if the sequence is considered a perfect sequence. O
 
 ### Big O
 
-| Time | Space |
-| :----------- | :----------- |
-| O(n) | O(n) |
+| Big O | Time | Space |
+| :----------- | :----------- | :----------- |
+|  | O (n^2) | O (1) |
 
 ---
 
