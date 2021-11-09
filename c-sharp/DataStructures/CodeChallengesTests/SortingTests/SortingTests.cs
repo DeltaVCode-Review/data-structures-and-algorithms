@@ -3,8 +3,14 @@ namespace CodeChallengesTests.SortingTests
 {
   public class SortingTests
   {
-    public SortingTests()
+    public void InsertionSort()
     {
+      //ARRANGE
+
+      //ACT
+
+      //ASSERT
+
     }
   }
 }
