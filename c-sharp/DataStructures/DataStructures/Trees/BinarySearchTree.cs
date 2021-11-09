@@ -3,8 +3,6 @@ namespace DataStructures.Trees
 {
   class BinarySearchTree : BinaryTree<int>
   {
-    void Add(int value) { ... }
-    bool Contains(int value) { ... }
   }
 
   //// Stretch goal

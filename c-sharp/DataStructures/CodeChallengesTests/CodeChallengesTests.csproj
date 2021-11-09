@@ -24,10 +24,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="BinaryTreeChallenges\" />
-    <None Remove="SortingTests\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BinaryTreeChallenges\" />
-    <Folder Include="SortingTests\" />
   </ItemGroup>
 </Project>

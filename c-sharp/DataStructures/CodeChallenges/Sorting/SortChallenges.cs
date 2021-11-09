@@ -3,7 +3,7 @@ namespace CodeChallenges.Sorting
 {
   public class SortChallenges
   {
-    public void InsertionSort(int[] arr)
+    public static void InsertionSort(int[] arr)
     {
       for (int i = 1; i < arr.Length; i++)
       {
@@ -18,7 +18,6 @@ namespace CodeChallenges.Sorting
         }
 
         temp = arr[j + 1];
-
       }
     }
   }
