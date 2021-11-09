@@ -39,10 +39,6 @@ Document your explanation by creating a blog article that shows the step-by-step
 
 ---
 
-## Whiteboard Process
-
-<!-- Embedded whiteboard image -->
-
 ## Approach & Efficiency
 
 | Big O | Time | Space |
@@ -55,6 +51,24 @@ Sorting is happening in place, so it will not require any additional space.
 
 ## Solution
 
-<!-- Show how to run your code, and examples of it in action -->
+```csharp
+public static void InsertionSort(int[] arr)
+    {
+      for (int i = 1; i < arr.Length; i++)
+      {
+        int j = i - 1;
+
+        int temp = arr[i];
+
+        while (j >= 0 && temp < arr[j])
+        {
+          arr[j] = arr[j + 1];
+          j--;
+        }
+
+        temp = arr[j + 1];
+      }
+    }
+```
 
 ---
